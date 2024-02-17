@@ -13,7 +13,7 @@ import Footer from "./Components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const roboto = Roboto({
+const roboto = Roboto({
   weight: ["400", "700"],
   style: ["normal", "italic"],
   subsets: ["latin"],
