@@ -9,22 +9,25 @@ export const Nav = tw.nav`
     right-0 
     w-full 
     h-20 
-   
+    fixed
 `;
 
 export const NavContainer = tw.div`
     px-16 
-    flex 
-    dark:text-white 
     text-slate-800
     pt-navbar
+    flex w-full flex-wrap items-center justify-between
 `;
 
 
-export const Logo = tw.div`
+export const LogoContainer = tw.div`
   
-    flex 
+    
     w-logo
- 
 
 `;
+
+export const SearchBarContainer=tw.div`
+   w-1/2 
+`;
+

@@ -14,11 +14,27 @@ export const ApiContextProvider = ({
   children: React.ReactNode;
 }) => {
   const [characterList, setCharacterList] = useState<Character[]>([]);
- 
+  const [search, setSearch]=useState("");
+
+  const searchCharacter = async (search: string) => {
+    api
+      .get(`characters?nameStartsWith=${search}&limit=99`)
+      .then((response) => {
+       
+        console.log("results search",response.data.data.results)
+        setCharacterList(response.data.data.results);
+      })
+      .catch((err) => console.log(err));
+  };
+
+  const getQuery = ()=>{
+     
+  }
 
   const getCharacterList = async () => {
+    const query=search!=""?`characters?nameStartsWith=${search}&limit=20`:"characters?&limit=20"
     api
-      .get("characters")
+      .get(query)
       .then((response) => {
         console.log("BaseUrl",process.env.NEXT_PUBLIC_API_BASE_URL)
         console.log("results",response.data.data.results)
@@ -37,7 +53,7 @@ export const ApiContextProvider = ({
 
   return (
     <ApiContext.Provider
-      value={{ characterList, setCharacterList, getCharacterList }}
+      value={{ characterList, setCharacterList, getCharacterList, search, setSearch  }}
     >
       {children}
     </ApiContext.Provider>

@@ -22,6 +22,10 @@ const config: Config = {
       padding:{
         navbar: "12.5px",
       },
+      spacing:{
+        search:"10px",
+        button:"4px",
+      },
     },
   },
   plugins: [],
