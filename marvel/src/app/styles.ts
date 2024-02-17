@@ -9,7 +9,7 @@ export const Container = tw.div`
 
 export const Content = tw.div`
     bg-slate-200
-    dark:bg-slate-700
+    min-h-screen
     text-slate-500
 `;
 
