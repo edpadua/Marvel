@@ -11,7 +11,9 @@ const privateKey = process.env.NEXT_PUBLIC_API_PRIVATE_KEY
 
 const time = Number(new Date());
 
-const hash = md5(time + privateKey + publicKey);
+const privateK=privateKey!=null?privateKey:""
+
+const hash = md5(time + privateK+ publicKey);
 
 const api = axios.create({
   baseURL: baseURL,
