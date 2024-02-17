@@ -32,7 +32,7 @@ export const ApiContextProvider = ({
   }
 
   const getCharacterList = async () => {
-    const query=search!=""?`characters?nameStartsWith=${search}&limit=20`:"characters?&limit=20"
+    const query=search!=""?`characters?nameStartsWith=${search}&limit=100`:"characters?&limit=100"
     api
       .get(query)
       .then((response) => {
