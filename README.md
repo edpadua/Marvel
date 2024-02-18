@@ -19,12 +19,13 @@ This project is a system developed with the ReactJS library that shows the list 
 
 Among the technologies used in this project are the Next.JS framework, Context API, TypeScript, Tailwind CSS with Tailwind Styled-Components, the Axios library to consume the Rest API.
 
-### Screeshot - Desktop
+### Screeshot - Home Page
 
 ![image](https://github.com/edpadua/Marvel/assets/4975360/0e1418fe-5ef9-4d3c-9dfc-aaf51427153e)
 
-### Screeshot - Tablet
+### Screeshot - Character Page
 
+![image](https://github.com/edpadua/Marvel/assets/4975360/402850d7-f073-49c9-916a-307a71b8af25)
 
 
 ### Screeshot - Mobile
@@ -41,6 +42,17 @@ Among the technologies used in this project are the Next.JS framework, Context A
 - [Marvel API](https://developer.marvel.com/)
 
 ## Setup
+
+- Create a Marvel API account, get your puplic and private keys
+    
+- Create in the project root directory the .env file with the following content:
+
+```bash
+    NEXT_PUBLIC_API_BASE_URL='https://gateway.marvel.com/v1/public/'
+    NEXT_PUBLIC_API_PUBLIC_KEY= Your puplic key inside ""
+    NEXT_PUBLIC_API_PRIVATE_KEY= Your private key inside ""
+```
+
 
 
 ```bash
