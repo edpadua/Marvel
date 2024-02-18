@@ -19,12 +19,13 @@ This project is a system developed with the ReactJS library that shows the list 
 
 Among the technologies used in this project are the Next.JS framework, Context API, TypeScript, Tailwind CSS with Tailwind Styled-Components, the Axios library to consume the Rest API.
 
-### Screeshot - Desktop
+### Screeshot - Home Page
 
 ![image](https://github.com/edpadua/Marvel/assets/4975360/0e1418fe-5ef9-4d3c-9dfc-aaf51427153e)
 
-### Screeshot - Tablet
+### Screeshot - Character Page
 
+![image](https://github.com/edpadua/Marvel/assets/4975360/402850d7-f073-49c9-916a-307a71b8af25)
 
 
 ### Screeshot - Mobile
