@@ -9,5 +9,5 @@ export const SearchBar = tw.div`
 `;
 
 export const InputSearch = tw.input`
-rounded-md text-slate-800 dark:border-none border-2 border-solid border-white lg:w-2/5 md:w-2/5 w-2/4 px-2 h-8  mr-2 mt-search
+rounded-md text-slate-800 dark:border-none border-2 border-solid border-white lg:w-2/5 md:w-2/5 w-full px-2 h-8  mr-2 mt-search
 `;

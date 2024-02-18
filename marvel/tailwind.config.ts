@@ -18,6 +18,7 @@ const config: Config = {
       },
       width: {
         logo: '10%',
+        searchbar:"88%",
       },
       padding:{
         navbar: "12.5px",

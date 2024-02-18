@@ -3,7 +3,8 @@ import tw from "tailwind-styled-components"
 export const Container = tw.div`
      w-full 
      px-16 
-     py-12
+     pt-20
+     pb-12
 `;
 
 
