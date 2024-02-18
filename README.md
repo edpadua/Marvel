@@ -1,7 +1,7 @@
 # Marvel
 
 <h1>
-    <a href="https://marvel-blush-kappa.vercel.app/"><img src="https://github.com/edpadua/LOTR/blob/main/lotr/public/lotr-capture.gif"></a>
+    <a href="https://marvel-blush-kappa.vercel.app/"><img src="https://github.com/edpadua/Marvel/blob/main/marvel/public/marvel-app-capture.gif"></a>
 </h1>
 
 # Summary
