@@ -43,6 +43,17 @@ Among the technologies used in this project are the Next.JS framework, Context A
 
 ## Setup
 
+- Create a Marvel API account, get your puplic and private keys
+    
+- Create in the project root directory the .env file with the following content:
+
+```bash
+    NEXT_PUBLIC_API_BASE_URL='https://gateway.marvel.com/v1/public/'
+    NEXT_PUBLIC_API_PUBLIC_KEY= Your puplic key inside ""
+    NEXT_PUBLIC_API_PRIVATE_KEY= Your private key inside ""
+```
+
+
 
 ```bash
 git clone https://github.com/edpadua/Marvel/
